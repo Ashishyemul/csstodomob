@@ -1,123 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  </head>
-  <body>
-    <h1>Tasks <span class="B">List</span></h1>
 
-    <a href="index1.html">
-      <div class="add">
-        <div><span class="material-symbols-outlined material"> add </span></div>
-        Add New Task
-      </div>
-    </a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
 
-    <div class="continer">
-      <a href="./index2.html">
-        <div class="D">
-          <h4 class="c">Trip to paris</h4>
-          <hr />
-          <div class="p">
-            <div>
-              <span class="material-symbols-outlined box done"> done </span>
+<body>
+    <nav class="navbar" id="$navbar">
+        <a href="./index.html" class="logo">Tasks <span class="list"> List</span></a>
+    </nav>
+
+    <div class="mainContainer">
+        <div class="newtask" id="$newtask">
+            <a href="./index2.html" class="plusSign" target="_self">+</a>
+            <a href="./index2.html" class="addNewtask" target="_self">Add New Task</a>
+        </div>
+        <div class="cardContainer">
+            <div class="cards">
+                <h5> <a href="./index3.html">Trip to paris</a></h5>
+                <form action="#">
+                    <div class="checks">
+                        <span class="del"> <input type="checkbox" id="church" name="church" checked> Visit Church</span> <br> <br> 
+                        <input type="checkbox" id="shopping" name="shopping"> Shopping
+                    </div>
+                </form>
             </div>
-            <div class="A">visit temple</div>
-          </div>
-          <div class="Q">
-            <div>
-              <span class="material-symbols-outlined checkbox">
-                check_box_outline_blank
-              </span>
+            <div class="cards">
+                <h5>My To Do List</h5>
+                <form action="#">
+                    <div class="checks">
+                        <span class="del"> <input type="checkbox" id="church" name="church" checked> Visit Super market</span> <br> <br> 
+                        <input type="checkbox" id="shopping" name="shopping"> Buy Vegetables
+                    </div>
+                </form>
             </div>
-            <div class="E">shopping</div>
-          </div>
+            <div class="cards">
+                <h5>Movies I Will Watch</h5>
+                <form action="#">
+                    <div class="checks">
+                        <span class="del"> <input type="checkbox" id="church" name="church" checked> Stranger Things 4</span> <br> <br> 
+                        <input type="checkbox" id="shopping" name="shopping"> Avengers Endgame
+                    </div>
+                </form>
+            </div>
+            
+            <div class="cards">
+                <h5>Daily Morning Routine For...</h5>
+                <form action="#">
+                    <div class="checks">
+                        <span class="del"> <input type="checkbox" id="church" name="church" checked> Wake up at 6 pm</span> <br> <br> 
+                        <input type="checkbox" id="shopping" name="shopping"> Sleep at 10 pm
+                    </div>
+                </form>
+            </div>
+            <div class="cards">
+                <h5>Books To Read</h5>
+                <form action="#">
+                    <div class="checks">
+                        <span class="del"> <input type="checkbox" id="church" name="church" checked> Design of Everyday</span> <br> <br> 
+                        <input type="checkbox" id="shopping" name="shopping"> Alchemist
+                    </div>
+                </form>
+            </div>
         </div>
-      </a>
-
-      <div class="D">
-        <h4 class="c">My To Do List</h4>
-        <hr />
-        <div class="p">
-          <div>
-            <span class="material-symbols-outlined box done"> done </span>
-          </div>
-          <div class="A">Visit supermarket</div>
-        </div>
-        <div class="Q">
-          <div>
-            <span class="material-symbols-outlined checkbox">
-              check_box_outline_blank
-            </span>
-          </div>
-          <div class="E">Bye Vegetables</div>
-        </div>
-      </div>
-
-      <div class="D">
-        <h4 class="c">Movies I will Watch</h4>
-        <hr />
-        <div class="p">
-          <div>
-            <span class="material-symbols-outlined box done"> done </span>
-          </div>
-          <div class="A">Stranger Things 4</div>
-        </div>
-        <div class="Q">
-          <div>
-            <span class="material-symbols-outlined checkbox">
-              check_box_outline_blank
-            </span>
-          </div>
-          <div class="E">Avengers Endgame</div>
-        </div>
-      </div>
-
-      <div class="D">
-        <h4 class="c">Daily Morning routine for...</h4>
-        <hr />
-        <div class="p">
-          <div>
-            <span class="material-symbols-outlined box done"> done </span>
-          </div>
-          <div class="A">Wake up at 6AM</div>
-          >
-        </div>
-        <div class="Q">
-          <div>
-            <span class="material-symbols-outlined checkbox">
-              check_box_outline_blank
-            </span>
-          </div>
-          <div class="E">Sleep at 10PM</div>
-        </div>
-      </div>
-
-      <div class="D">
-        <h4 class="c">Books to Read</h4>
-        <hr />
-        <div class="p">
-          <div>
-            <span class="material-symbols-outlined box done"> done </span>
-          </div>
-          <div class="A">Design of Everyday</div>
-        </div>
-        <div class="Q">
-          <div>
-            <span class="material-symbols-outlined checkbox">
-              check_box_outline_blank
-            </span>
-          </div>
-          <div class="E">Atchemist</div>
-        </div>
-      </div>
     </div>
-  </body>
+
+</body>
+
 </html>
